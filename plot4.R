@@ -59,7 +59,7 @@ with(epdat, {
 with(epdat, plot(Timestamp, Sub_metering_1, type="l", xlab="", ylab="Energy sub metering"))
 with(epdat, lines(Timestamp, Sub_metering_2, col="red"))
 with(epdat, lines(Timestamp, Sub_metering_3, col="blue"))
-legend("topright",  col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lwd = 1, bty="n")
+legend("topright",  cex = .8, col = c("black", "red", "blue"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lwd = 1, bty="n")
 
 # Plot the 4th chart
 with(epdat, plot(Timestamp, Global_reactive_power, type="l", xlab="datetime", ylab="Global_reactive_power"))
